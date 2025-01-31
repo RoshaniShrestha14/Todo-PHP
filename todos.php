@@ -1,11 +1,11 @@
 <?php
 
-// include 'Database.php';
-// include 'utils.php';
+include 'Database.php';
+include 'utils.php';
 
-// $title = 'Todos';
+$title = 'Todos';
 
-// $db = new Database();
+$db = new Database();
 
 // Create a new PDOStatement instance to prepare the SQL query
 $statement = $db->query('SELECT * FROM todo');
